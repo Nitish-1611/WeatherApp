@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="/demo/css/tilt.css">-->
+</head>
+
+<body>
+    <!--data-tilt data-tilt-max="10" data-tilt-speed="100" src="https://via.placeholder.com/300x300"-->
+    <div class="card">
+        <div class="search">
+            <input  type="text" onkeypress="clickPress(event)" placeholder="Enter City Name" spellcheck="false">
+            <button><img src="images/search.png"></button>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" id = "abc" class="weather-icon">
+            <h1 class="temp">25°C</h1>
+            <h2 class="city">Vashi</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+        
+
+
+    </script>
+    <!--<script>
+        $('.js-tilt').tilt({
+            max: 4,
+            speed: 800,
+            scale: 1.03,
+            glare: true,
+            "max-glare": 0.5,
+
+        })     
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+-->
+</body>
+
+
+</html>
